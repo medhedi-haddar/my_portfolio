@@ -29,6 +29,9 @@
                 <a class="nav-link" href="#">Career</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
             </li>
             @if(Auth::check())

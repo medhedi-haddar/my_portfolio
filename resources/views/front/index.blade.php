@@ -2,13 +2,15 @@
 
 @section('content')
     <div class="m-0 section-description">
-        <div class="container ">
+        <div class="container">
+
             <h2>HADDAR Mohamed Elhedi</h2>
             <img src="{{asset('images/logo_w_r.png')}}" width="350px" alt="logo">
             <div class="col-md-8 offset-md-2 ">
                 <p>Passionné par l'informatique et notamment par le développement qui me permet de créer et d'innover
                     comme bon me semble,je souhaite vous faire partager mes connaissances dans ces domaines pour que vous puissiez
-                    vous plaire à développer.</p>
+                    vous plaire à développer.
+                </p>
             </div>
             <a href="#" class="btn btn-outline-info ">En savoir plus <i class="fa fa-user"></i></a>
         </div>

@@ -25,6 +25,7 @@
         </div>
     </div>
 </div>
+@include('partials.contact')
 @include('partials.footer')
 @section('scripts')
     <script src="{{asset('js/app.js')}}"></script>
