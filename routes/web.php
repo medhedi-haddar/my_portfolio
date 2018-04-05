@@ -17,6 +17,8 @@ Route::get('/accueil', function (){
 });
 
 Route::resource('admin/portfolio', 'PortfolioController')->middleware('auth');
+Route::resource('admin/works', 'WorkController')->middleware('auth');
+Route::resource('admin/album', 'AlbumController')->middleware('auth');
 
 Auth::routes();
 
