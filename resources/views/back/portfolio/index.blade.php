@@ -50,7 +50,7 @@
                 </td>
             </tr>
             @empty
-                Aucun auteur
+                <tr></tr>
                 @endforelse
 
             </tbody>
@@ -100,8 +100,8 @@
                 </tr>
             @empty
                 <tr>
-                    <td>
-                        <p>-- NO DATA --</p>
+                    <td colspan="6" class="text-center">
+                        <p>-- aucune formation pour l'instant --</p>
                     </td>
                     </tr>
             @endforelse
@@ -110,5 +110,8 @@
             </table>
     </div>
 </div>
-
 @endsection
+@section('scripts')
+    <script src="{{asset('js/app.js')}}"></script>
+
+@show

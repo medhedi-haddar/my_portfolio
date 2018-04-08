@@ -19,6 +19,11 @@ Route::get('/accueil', function (){
 Route::resource('admin/portfolio', 'PortfolioController')->middleware('auth');
 Route::resource('admin/works', 'WorkController')->middleware('auth');
 Route::resource('admin/album', 'AlbumController')->middleware('auth');
+Route::resource('admin/imagesalbum', 'ImagesAlbum')->middleware('auth');
+
+
+
+Route::post('admin/album/images/upload', 'GeneralController@imagesUploadAlbum')->name('images.upload')->middleware('auth');
 
 Auth::routes();
 
